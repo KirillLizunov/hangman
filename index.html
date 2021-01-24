@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+<title>viselitsa</title>
+</head>
+<body>
+    <img src="фон.jpg" alt="" id="fon">
+    <div class="wordModal">
+        <form action="">
+            <h4>Загадай слово</h4>
+            <input type="text" id="wordInput">
+            <button id="wordButton">Ввести</button>
+        </form>
+    </div>
+   <div class="modal">
+       <form action="">
+        <h4>Режим игры</h4>
+        <button>Одиночная</button>
+        <button id="multiplayer">Мультиплеер</button>
+       </form>
+   </div>
+    <form>
+        <h1>Виселица</h1>
+        <img src="hangman0.png" alt="" id="hangman">
+        <h2>***</h2>
+        <h5></h5>
+        <input type="text" id="userInput" maxlength="1">
+        <button id="okButton">Ввести</button>
+        <button id="newButton">Новая игра</button>
+        <button id="modeButton">Режим игры</button>
+        <h3>Введи букву и проверь</h3>
+    </form>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

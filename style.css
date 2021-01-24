@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+form {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.3);
+    max-width: 600px;
+    width: 90%;
+    padding: 20px;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    box-sizing: border-box;
+    transform: translate(50%, 50%);
+    border-radius: 20px 20px;
+    box-shadow: 10px 10px 30px;
+    text-align: center;
+}
+form * {
+    margin-bottom: 10px;
+}
+#hangman {
+    width: 60%;
+}
+#fon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+body {
+    /* background: #F7E35E; */
+}
+h3 {
+    font-family: 'Tenor Sans', sans-serif;
+}
+h4 {
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 30px;
+}
+h1 {
+    font-family: 'Tenor Sans', sans-serif;
+}
+h5 {
+    font-size: 18px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+h2 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    font-family: 'Tenor Sans', sans-serif;
+}
+#userInput {
+    box-shadow: 2px 2px 7px;
+    font-family: 'Tenor Sans', sans-serif;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    outline: none;
+}
+button {
+    box-shadow: 1px 1px 3px;
+    display: inline-block;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Tenor Sans', sans-serif;
+    cursor: pointer;
+    outline: none;
+}
+::selection {
+    background: #aaa;
+}
+.modal, .wordModal {
+/*    background: #fff;*/
+    backdrop-filter: blur(10px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+.wordModal {
+    /* display: block; */
+}
+#wordInput {
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    text-align: center;
+} 
